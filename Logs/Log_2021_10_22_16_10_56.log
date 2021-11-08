@@ -1,0 +1,6 @@
+2021-10-22 10:17:05,069  INFO [main] WebdriverHelper:37 - Browser has been opened
+ 2021-10-22 10:17:07,746  INFO [main] WebdriverHelper:45 - Came to the Login Page
+ 2021-10-22 10:17:23,172  INFO [main] WebdriverHelper:66 - Login Successful
+ 2021-10-22 10:17:33,066  INFO [main] WebdriverHelper:77 - Searched the product
+ 2021-10-22 10:17:49,542  INFO [main] WebdriverHelper:100 - Product added to the cart
+ 

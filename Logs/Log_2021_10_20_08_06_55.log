@@ -1,0 +1,16 @@
+2021-10-20 18:08:59,351  INFO [main] WebdriverHelper:31 - Browser has been opened
+ 2021-10-20 18:09:01,377  INFO [main] WebdriverHelper:38 - Came to the Login Page
+ 2021-10-20 18:09:10,323  INFO [main] WebdriverHelper:56 - Login Successful
+ 2021-10-20 18:09:12,685  INFO [main] WebdriverHelper:64 - Searched the product
+ 2021-10-20 18:09:29,049  INFO [main] WebdriverHelper:82 - Product added to the cart
+ 2021-10-20 18:09:29,681 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+ 2021-10-20 18:09:29,683 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+ 2021-10-20 18:09:29,685 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2021-10-20 18:09:29,689 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2021-10-20 18:09:29,690 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Aman%20Paliwal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2021-10-20 18:09:30,110 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+ 2021-10-20 18:09:30,111 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+ 2021-10-20 18:09:30,112 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2021-10-20 18:09:30,113 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2021-10-20 18:09:30,113 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Aman%20Paliwal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 

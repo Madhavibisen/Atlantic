@@ -9,6 +9,6 @@ And Click on Login
 
 Examples:
 |email                         |password          |
-|madhavibisen123@gmail.com     |Madhavi@400       |
-|modibhai@123gmail.com         |12345             |
+|paliwalaman23@gmail.com       |JackNJill@123      |
+#|modibhai@123gmail.com         |12345             |
 

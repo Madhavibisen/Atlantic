@@ -22,6 +22,7 @@ public class LoginPageSD {
     @Given("^Getting driver from the Landing Page of the application$")
     public void getting_driver_from_the_landing_page_of_the_application() throws Throwable {
     	driver = LandingPageSD.getDriver();
+    	Thread.sleep(5000);
     }
 
     @When("^user click on SignIn$")
@@ -42,6 +43,7 @@ public class LoginPageSD {
     @And("^Click on Login$")
     public void click_on_login() throws Throwable {
     	login.getLogin().click();
+    	System.out.println("clicked on sigin");
     }
     
     public static WebDriver getDriver() {

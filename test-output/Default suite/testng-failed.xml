@@ -5,8 +5,13 @@
     <classes>
       <class name="com.mindtree.runner.Atlantic_Page">
         <methods>
+          <include name="Landing_Page"/>
+          <include name="SearchPageTesting"/>
           <include name="CartPageTesting"/>
           <include name="closeDriver"/>
+          <include name="Login_Page" invocation-numbers="0"/>
+          <include name="homePageLanding"/>
+          <include name="ProductPageTesting"/>
         </methods>
       </class> <!-- com.mindtree.runner.Atlantic_Page -->
     </classes>

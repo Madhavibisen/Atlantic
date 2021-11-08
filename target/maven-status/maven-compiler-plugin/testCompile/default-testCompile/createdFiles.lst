@@ -1,0 +1,6 @@
+com\mindtree\StepDefinations\LandingPageSD.class
+com\mindtree\StepDefinations\CartPageSD.class
+com\mindtree\StepDefinations\SearchPageSD.class
+com\mindtree\runner\TestRunner.class
+com\mindtree\StepDefinations\ProductSearchSD.class
+com\mindtree\StepDefinations\LoginPageSD.class

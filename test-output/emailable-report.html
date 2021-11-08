@@ -8,29 +8,12 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">182,331</td><td></td><td></td></tr>
+<tr><th colspan="8">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">85,214</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.mindtree.runner.Atlantic_Page</td><td><a href="#m0">CartPageTesting</a></td><td rowspan="1">1636379189318</td><td rowspan="1">8932</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">com.mindtree.runner.Atlantic_Page</td><td><a href="#m1">Landing_Page</a></td><td rowspan="1">1636379035633</td><td rowspan="1">3735</td></tr><tr class="passedeven"><td><a href="#m2">Login_Page</a></td><td rowspan="1">1636379040033</td><td rowspan="1">11715</td></tr><tr class="passedeven"><td><a href="#m3">ProductPageTesting</a></td><td rowspan="1">1636379138864</td><td rowspan="1">49625</td></tr><tr class="passedeven"><td><a href="#m4">SearchPageTesting</a></td><td rowspan="1">1636379052730</td><td rowspan="1">85493</td></tr><tr class="passedeven"><td><a href="#m5">homePageLanding</a></td><td rowspan="1">1636379016689</td><td rowspan="1">15669</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">com.mindtree.runner.Atlantic_Page</td><td><a href="#m0">CartPageTesting</a></td><td rowspan="1">1636391286280</td><td rowspan="1">13315</td></tr><tr class="passedeven"><td><a href="#m1">Landing_Page</a></td><td rowspan="1">1636391221875</td><td rowspan="1">15377</td></tr><tr class="passedeven"><td><a href="#m2">Login_Page</a></td><td rowspan="1">1636391237261</td><td rowspan="1">39027</td></tr><tr class="passedeven"><td><a href="#m3">ProductPageTesting</a></td><td rowspan="1">1636391281603</td><td rowspan="1">4676</td></tr><tr class="passedeven"><td><a href="#m4">SearchPageTesting</a></td><td rowspan="1">1636391276290</td><td rowspan="1">5311</td></tr><tr class="passedeven"><td><a href="#m5">homePageLanding</a></td><td rowspan="1">1636391214594</td><td rowspan="1">7272</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">com.mindtree.runner.Atlantic_Page#CartPageTesting</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span class=&quot;df-text&quot;&gt;...&lt;/span&gt; is not clickable at point (962, 94). Other element would receive the click: &lt;div class=&quot;modals-overlay&quot; style=&quot;z-index: 10000001;&quot;&gt;&lt;/div&gt;
-  (Session info: chrome=95.0.4638.69)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-I53I0DN&apos;, ip: &apos;192.168.29.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:10833}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 6625ad9878c2a612d7b80ad6de785a06
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at com.mindtree.runner.Atlantic_Page.CartPageTesting(Atlantic_Page.java:98)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">com.mindtree.runner.Atlantic_Page#CartPageTesting</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m1">com.mindtree.runner.Atlantic_Page#Landing_Page</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m2">com.mindtree.runner.Atlantic_Page#Login_Page</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>madhavibisen123@gmail.com</td><td>Madhavi@400</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m3">com.mindtree.runner.Atlantic_Page#ProductPageTesting</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>

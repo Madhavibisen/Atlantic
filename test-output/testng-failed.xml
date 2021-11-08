@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <listeners>
-    <listener class-name="com.mindtree.utility.Listeners"/>
-    <listener class-name="com.mindtree.utility.ExtentReporterNG"/>
-  </listeners>
-  <test thread-count="5" name="Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
       <class name="com.mindtree.runner.Atlantic_Page">
         <methods>
+          <include name="Landing_Page"/>
+          <include name="SearchPageTesting"/>
           <include name="CartPageTesting"/>
           <include name="closeDriver"/>
+          <include name="Login_Page" invocation-numbers="0"/>
+          <include name="homePageLanding"/>
+          <include name="ProductPageTesting"/>
         </methods>
       </class> <!-- com.mindtree.runner.Atlantic_Page -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

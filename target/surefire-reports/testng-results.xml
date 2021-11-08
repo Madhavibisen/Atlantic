@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="99189" started-at="2021-11-08T15:31:51 IST" finished-at="2021-11-08T15:33:30 IST">
+  <suite name="Suite" duration-ms="53281" started-at="2021-11-08T20:25:03 IST" finished-at="2021-11-08T20:25:56 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="99189" started-at="2021-11-08T15:31:51 IST" finished-at="2021-11-08T15:33:30 IST">
+    <test name="Test" duration-ms="53281" started-at="2021-11-08T20:25:03 IST" finished-at="2021-11-08T20:25:56 IST">
       <class name="com.mindtree.runner.Atlantic_Page">
-        <test-method status="PASS" signature="homePageLanding()[pri:1, instance:com.mindtree.runner.Atlantic_Page@7791a895]" name="homePageLanding" duration-ms="10534" started-at="2021-11-08T15:31:51 IST" finished-at="2021-11-08T15:32:02 IST">
+        <test-method status="PASS" signature="homePageLanding()[pri:1, instance:com.mindtree.runner.Atlantic_Page@6325a3ee]" name="homePageLanding" duration-ms="9120" started-at="2021-11-08T20:25:03 IST" finished-at="2021-11-08T20:25:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageLanding -->
-        <test-method status="PASS" signature="Landing_Page()[pri:2, instance:com.mindtree.runner.Atlantic_Page@7791a895]" name="Landing_Page" duration-ms="13920" started-at="2021-11-08T15:32:02 IST" finished-at="2021-11-08T15:32:16 IST">
+        <test-method status="PASS" signature="Landing_Page()[pri:2, instance:com.mindtree.runner.Atlantic_Page@6325a3ee]" name="Landing_Page" duration-ms="5311" started-at="2021-11-08T20:25:13 IST" finished-at="2021-11-08T20:25:18 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Landing_Page -->
-        <test-method status="PASS" signature="Login_Page(java.lang.String, java.lang.String)[pri:3, instance:com.mindtree.runner.Atlantic_Page@7791a895]" name="Login_Page" duration-ms="31679" started-at="2021-11-08T15:32:16 IST" data-provider="getData" finished-at="2021-11-08T15:32:47 IST">
+        <test-method status="PASS" signature="Login_Page(java.lang.String, java.lang.String)[pri:3, instance:com.mindtree.runner.Atlantic_Page@6325a3ee]" name="Login_Page" duration-ms="12665" started-at="2021-11-08T20:25:18 IST" data-provider="getData" finished-at="2021-11-08T20:25:31 IST">
           <params>
             <param index="0">
               <value>
@@ -31,19 +31,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_Page -->
-        <test-method status="PASS" signature="SearchPageTesting()[pri:4, instance:com.mindtree.runner.Atlantic_Page@7791a895]" name="SearchPageTesting" duration-ms="13108" started-at="2021-11-08T15:32:47 IST" finished-at="2021-11-08T15:33:01 IST">
+        <test-method status="PASS" signature="SearchPageTesting()[pri:4, instance:com.mindtree.runner.Atlantic_Page@6325a3ee]" name="SearchPageTesting" duration-ms="3731" started-at="2021-11-08T20:25:31 IST" finished-at="2021-11-08T20:25:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchPageTesting -->
-        <test-method status="PASS" signature="ProductPageTesting()[pri:5, instance:com.mindtree.runner.Atlantic_Page@7791a895]" name="ProductPageTesting" duration-ms="17070" started-at="2021-11-08T15:33:01 IST" finished-at="2021-11-08T15:33:18 IST">
+        <test-method status="PASS" signature="ProductPageTesting()[pri:5, instance:com.mindtree.runner.Atlantic_Page@6325a3ee]" name="ProductPageTesting" duration-ms="5150" started-at="2021-11-08T20:25:35 IST" finished-at="2021-11-08T20:25:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductPageTesting -->
-        <test-method status="PASS" signature="CartPageTesting()[pri:6, instance:com.mindtree.runner.Atlantic_Page@7791a895]" name="CartPageTesting" duration-ms="12459" started-at="2021-11-08T15:33:18 IST" finished-at="2021-11-08T15:33:30 IST">
+        <test-method status="PASS" signature="CartPageTesting()[pri:6, instance:com.mindtree.runner.Atlantic_Page@6325a3ee]" name="CartPageTesting" duration-ms="11553" started-at="2021-11-08T20:25:40 IST" finished-at="2021-11-08T20:25:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CartPageTesting -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.mindtree.runner.Atlantic_Page@7791a895]" name="closeDriver" is-config="true" duration-ms="360" started-at="2021-11-08T15:33:30 IST" finished-at="2021-11-08T15:33:30 IST">
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.mindtree.runner.Atlantic_Page@6325a3ee]" name="closeDriver" is-config="true" duration-ms="4176" started-at="2021-11-08T20:25:52 IST" finished-at="2021-11-08T20:25:56 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->

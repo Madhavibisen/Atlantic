@@ -15,7 +15,6 @@ public class CartPage {
 	}
 	
 	
-	
 	public WebElement getCart() {
 		return driver.findElement(CartPageUI.addToCart);
 	}
